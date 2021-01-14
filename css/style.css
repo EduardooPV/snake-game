@@ -1,0 +1,27 @@
+body{
+    height: 75vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../img/background-forest.jpg") no-repeat 0px 0px;
+    background-size: cover;
+}
+
+.title {
+    font-size: 5rem;
+    margin: 30px;
+}
+
+.text-breaking-horizontal > div:nth-child(1) {
+    animation: text-breaking-horizontal1 2s 1;
+  }
+  
+
+  @keyframes text-breaking-horizontal1 {
+    0% {
+      transform: translateX(250%);
+    }
+  }
